@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+button,
+a {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
