@@ -1,16 +1,35 @@
-# React + Vite
+# 🛍️ React DummyJSON Product Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive product explorer built with **React.js, Vite, and the DummyJSON REST API**. Fetches and displays product information, including images, prices, categories, and ratings.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔗 DummyJSON REST API integration
+* 🛍️ Dynamic product listing
+* 🖼️ Product images, prices, and ratings
+* ⏳ Loading and error handling
+* ⚛️ React Hooks: `useState` and `useEffect`
+* 📱 Responsive product grid
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* Vite
+* CSS
+* Fetch API
+* DummyJSON REST API
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/vishnuradhakrishnan595-cloud/react-dummyjson-product-explorer.git
+cd react-dummyjson-product-explorer
+npm install
+npm run dev
+```
+
+## 🔌 API
+
+**Endpoint:** https://dummyjson.com/products
+
